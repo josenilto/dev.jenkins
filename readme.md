@@ -30,3 +30,7 @@ docker-compose -f docker-compose.yaml down
 ```bash
 docker network list
 ```
+
+```bash
+docker container list
+```
