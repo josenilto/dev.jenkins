@@ -25,9 +25,13 @@ Name                Command               State                                 
 Jenkins   /usr/bin/tini -- /usr/loca ...   Up      0.0.0.0:50000->50000/tcp,:::50000->50000/tcp, 0.0.0.0:8080->8080/tcp,:::8080->8080/tcp
 
 
-
+Lista contêineres para um projeto do Compose, com status atual e portas expostas.           
 ```bash
 docker-compose ps
+```
+Por padrão, apenas os contêineres em execução são mostrados. --allsinalizador pode ser usado para incluir contêineres parados.          
+```bash
+docker compose ps --all
 ```
 
 docker-compose -f docker-compose.yaml up -d
