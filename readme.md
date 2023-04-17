@@ -19,8 +19,14 @@ Por padrão, apenas os contêineres em execução são mostrados. --all sinaliza
 docker compose ps --all
 ```
 
+```bash
 docker-compose -f docker-compose.yaml up -d
+```
 
+```bash
 docker-compose -f docker-compose.yaml down
+```
 
+```bash
 docker network list
+```
