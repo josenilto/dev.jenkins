@@ -9,6 +9,22 @@ O script detectará o sistema operacional e instalará a versão apropriada do D
 curl -fsSl https://get.docker.com |sh
 ```
 
+```bash
+sudo apt  install docker-compose
+```
+
+```bash
+docker compose version
+```
+
+```bash
+docker ps -a
+```
+
+```bash
+
+```
+
 Lista contêineres para um projeto do Compose, com status atual e portas expostas.
 ```bash
 docker-compose ps
