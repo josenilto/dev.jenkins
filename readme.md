@@ -2,7 +2,7 @@
 
 Automação gratuito e de código aberto. Ajuda a automatizar as partes do desenvolvimento de software relacionadas à construção, teste e implantação, facilitando a integração e entrega contínuas.
 
-Este comando é um comando shell que baixa e executa um script para instalar o Docker em seu sistema.
+Este comando é um comando shell que baixa e executa um script para instalar o Docker em seu sistema.        
 Aqui está um detalhamento do que cada componente do comando faz:
 
 curl: esta é uma ferramenta de linha de comando usada para transferir dados de ou para um servidor usando uma sintaxe de URL. Neste caso, ele é usado para baixar o script que irá instalar o Docker.
